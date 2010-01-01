@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#
+#  Created on 2010-1-2.
+#  Copyright (c) 2010. All rights reserved.
+
+require 'rubygems'
+require File.expand_path(File.dirname(__FILE__) + "/../lib/beam")
+require "beam/cli"
+
+Beam::CLI.execute(STDOUT, ARGV)

@@ -1,0 +1,12 @@
+.* # Ignore all dotfiles...
+!.gitignore # except for .gitignore
+*.log
+Makefile
+*.o
+*.bundle
+*.so
+*.dll
+*.orig
+pkg
+doc
+.DS_Store
